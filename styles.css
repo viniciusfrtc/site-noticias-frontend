@@ -1,9 +1,59 @@
-header{
-  background-color: red;
-  margin-top: 0;
-}
 
 body{
   margin: 0;
+}
+
+header {
+  background-color: #055DEB;
   margin-top: 0;
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-size: 120%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+}
+
+#banner{
+  position: relative;
+  width: 100%;
+  top: 101px;
+}
+
+#banner img{
+  width:100%;
+}
+
+.textobanner{
+  position: absolute;
+  left: 5%;
+  top: 55%;
+  color: white;
+  font-size: 130%;
+
+}
+
+
+footer {
+background-color: #055DEB;
+margin-top: 0;
+margin-bottom: 0;
+width: 100%;
+color: white;
+font-size: 100%;
+text-align: center;
+font-weight: bold;
+font-family: sans-serif;
+}
+
+.copyright {
+margin: 0;
+padding: 10px;
+font-size: 50%;
+background-color: #033F9F;
+}
+
+.linksFooter {
+font-size: 80%
 }
